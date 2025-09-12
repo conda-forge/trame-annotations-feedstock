@@ -1,5 +1,5 @@
 {% set name = "trame-annotations" %}
-{% set version = "0.4.2" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/trame_annotations-{{ version }}.tar.gz
-  sha256: d28082df1c6fc76b32f1f346aa89be42290a33bc5c7a6a7fe2db32ef1c6aa4e7
+  sha256: 90da9da3ec069af73fab9cd1a8f6408ff1bf0306d232447063fa06c73c65d4f9
 
 build:
   noarch: python
